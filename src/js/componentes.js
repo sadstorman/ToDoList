@@ -7,6 +7,7 @@ const txtInput = document.querySelector('.new-todo');
 const eliminarCompletados = document.querySelector('.clear-completed');
 const ulFiltros = document.querySelector('.filters');
 const anchorFiltros = document.querySelectorAll('.filtro');
+const contadorPendiente = document.querySelector('span');
 
 
 export const crearTodoHtml = ( todo ) => {
@@ -30,6 +31,8 @@ export const crearTodoHtml = ( todo ) => {
     return div;
 
 }
+
+
 
 // Eventos
 //keyup, puedo saber que teclas se presionan y finalmente la palabra completa que se escribio
