@@ -65,6 +65,7 @@ export class TodoList {
             }
         });
         contador.innerHTML = auxiliar;
+        console.log("paso por aca");
     }
     // //Le pregunto si esta vacio el toDo, si lo esta inicializo mi array. Si no esta vacio entonces hago un getITem para conseguir los toDos almacenados
     // if(localStorage.getItem('todo')) {
